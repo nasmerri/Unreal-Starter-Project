@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\MyNewProject.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{A73A16A5-D36F-4BE4-B562-5B7F9C6BD7D8}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MyNewProject.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\MyNewProjectEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{2F8A3B7D-C485-44B3-B7BE-67C0B7F229BB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\MyNewProject">
+      <UniqueIdentifier>{FB76AAD4-3AC9-457F-9173-DA6685CA36BD}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MyNewProject\MyNewProject.Build.cs">
+      <Filter>Source\MyNewProject</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\MyNewProject\MyNewProject.cpp">
+      <Filter>Source\MyNewProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyNewProject\MyNewProject.h">
+      <Filter>Source\MyNewProject</Filter>
+    </ClInclude>
+    <Filter Include="Source\MyNewProject\FP_FirstPerson">
+      <UniqueIdentifier>{3D5BBDA0-6210-43A7-B441-B1E94C5D9D85}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\MyNewProject\FP_FirstPerson\FP_FirstPerson.h">
+      <Filter>Source\MyNewProject\FP_FirstPerson</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MyNewProject\FP_FirstPerson\FP_FirstPersonCharacter.cpp">
+      <Filter>Source\MyNewProject\FP_FirstPerson</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyNewProject\FP_FirstPerson\FP_FirstPersonCharacter.h">
+      <Filter>Source\MyNewProject\FP_FirstPerson</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MyNewProject\FP_FirstPerson\FP_FirstPersonGameMode.cpp">
+      <Filter>Source\MyNewProject\FP_FirstPerson</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyNewProject\FP_FirstPerson\FP_FirstPersonGameMode.h">
+      <Filter>Source\MyNewProject\FP_FirstPerson</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MyNewProject\FP_FirstPerson\FP_FirstPersonHUD.cpp">
+      <Filter>Source\MyNewProject\FP_FirstPerson</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyNewProject\FP_FirstPerson\FP_FirstPersonHUD.h">
+      <Filter>Source\MyNewProject\FP_FirstPerson</Filter>
+    </ClInclude>
+    <Filter Include="Source\MyNewProject\TP_ThirdPerson">
+      <UniqueIdentifier>{02F34034-03FF-41DC-9CF9-37F9960CB881}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\MyNewProject\TP_ThirdPerson\TP_ThirdPerson.h">
+      <Filter>Source\MyNewProject\TP_ThirdPerson</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MyNewProject\TP_ThirdPerson\TP_ThirdPersonCharacter.cpp">
+      <Filter>Source\MyNewProject\TP_ThirdPerson</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyNewProject\TP_ThirdPerson\TP_ThirdPersonCharacter.h">
+      <Filter>Source\MyNewProject\TP_ThirdPerson</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MyNewProject\TP_ThirdPerson\TP_ThirdPersonGameMode.cpp">
+      <Filter>Source\MyNewProject\TP_ThirdPerson</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyNewProject\TP_ThirdPerson\TP_ThirdPersonGameMode.h">
+      <Filter>Source\MyNewProject\TP_ThirdPerson</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
